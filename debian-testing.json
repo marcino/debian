@@ -1,0 +1,15 @@
+{
+  "_comment": "Build with `packer build -var-file=debian-testing.json debian.json`",
+  "vm_name": "testing",
+  "cpus": "1",
+  "disk_size": "65536",
+  "iso_checksum": "ad73be2e28188dbe2e5bbb3619c55da9a7a7192f0cac4bf101b00c2fa6fac5d827b38f287bc74de08b7b7ca4752310c98afb6eecb2170e7c28225b0e898a7a62",
+  "iso_checksum_type": "sha512",
+  "iso_name": "debian-testing-amd64-netinst.iso",
+  "iso_url": "https://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/amd64/iso-cd/debian-testing-amd64-netinst.iso",
+  "version": "testing",
+  "memory": "512",
+  "preseed" : "preseed-jessie.cfg",
+  "headless": "false",
+  "remove_docs": "false"
+}
