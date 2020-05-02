@@ -1,1 +1,1 @@
-packer build -only=virtualbox-iso -var-file=debian9.json debian.json
+packer build -only=virtualbox-iso -var-file=debian10.json debian.json
